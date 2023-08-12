@@ -354,6 +354,6 @@ function link(_link) {
     }, 200);
   } else {
     location.href =
-      "service/go/" + __uv$config.encodeUrl("https://radon.games/");
+      "https://sites.google.com/view/projectxneo/games";
   }
 }

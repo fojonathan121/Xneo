@@ -1,19 +1,18 @@
 const THEME_OPTIONS = {
   dark: {
-    "--background-primary": "#191724",
-    "--navbar-color": "#26233a",
-    "--navbar-height": "60px",
-    "--navbar-text-color": "#7967dd",
-    "--input-text-color": "#e0def4",
-    "--input-placeholder-color": "#6e6a86",
-    "--input-background-color": "#1f1d2e",
-    "--input-placeholder-color": "white",
-    "--input-border-color": "#eb6f92",
+    "--background-primary": "#22262b",
+    "--navbar-color": "#15161a",
+    "--navbar-height": "3.5em",
+    "--navbar-text-color": "#ffffff",
+    "--input-text-color": "#ffffff",
+    "--input-placeholder-color": "000000",
+    "--input-background-color": "#0000000",
+    "--input-border-color": "#ffffff",
     "--input-border-size": "1.3px",
-    "--navbar-link-color": "#e0def4",
-    "--navbar-font": '"Roboto"',
-    "--navbar-logo-filter": "invert(0%)",
-    "--text-color-primary": "#e0def4"
+    "--navbar-link-color": "#000000",
+    "--navbar-font": '"Open Sans"',
+    "--navbar-logo-filter": "brightness(100%)",
+    "--text-color-primary": "#ffffff"
   },
   light: {
     "--background-primary": "#d8d8d8",
@@ -68,21 +67,6 @@ const THEME_OPTIONS = {
     "--input-text-color": "#000000",
     "--input-placeholder-color": "000000",
     "--input-background-color": "#e4ff8b",
-    "--input-border-color": "#00000000",
-    "--input-border-size": "1.3px",
-    "--navbar-link-color": "#000000",
-    "--navbar-font": '"Roboto"',
-    "--navbar-logo-filter": "brightness(0%)",
-    "--text-color-primary": "#000"
-  }
-    xneo: {
-    "--background-primary": "#363942",
-    "--navbar-color": "#15161a",
-    "--navbar-height": "3.5em",
-    "--navbar-text-color": "#000000",
-    "--input-text-color": "#000000",
-    "--input-placeholder-color": "000000",
-    "--input-background-color": "#363942",
     "--input-border-color": "#00000000",
     "--input-border-size": "1.3px",
     "--navbar-link-color": "#000000",
