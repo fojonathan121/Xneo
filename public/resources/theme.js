@@ -75,6 +75,21 @@ const THEME_OPTIONS = {
     "--navbar-logo-filter": "brightness(0%)",
     "--text-color-primary": "#000"
   }
+    xneo: {
+    "--background-primary": "#363942",
+    "--navbar-color": "#15161a",
+    "--navbar-height": "3.5em",
+    "--navbar-text-color": "#000000",
+    "--input-text-color": "#000000",
+    "--input-placeholder-color": "000000",
+    "--input-background-color": "#363942",
+    "--input-border-color": "#00000000",
+    "--input-border-size": "1.3px",
+    "--navbar-link-color": "#000000",
+    "--navbar-font": '"Roboto"',
+    "--navbar-logo-filter": "brightness(0%)",
+    "--text-color-primary": "#000"
+  }
 };
 
 function changeCSS(property, value, isRoot = false) {
