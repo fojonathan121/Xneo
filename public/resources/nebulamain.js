@@ -108,7 +108,7 @@ window.addEventListener("load", () => {
               stealthEngine(redirectTo);
             } else {
               console.error(
-                "Stealth Engine failed to load! Please contact support - discord.gg/unblocker"
+                "Stealth Engine failed to load! Please contact support - https://forms.gle/SC7rHZkQay3FK2iWA"
               );
             }
           } else {

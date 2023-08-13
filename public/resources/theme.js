@@ -5,11 +5,11 @@ const THEME_OPTIONS = {
     "--navbar-height": "3.5em",
     "--navbar-text-color": "#ffffff",
     "--input-text-color": "#ffffff",
-    "--input-placeholder-color": "000000",
+    "--input-placeholder-color": "white",
     "--input-background-color": "#0000000",
     "--input-border-color": "#ffffff",
     "--input-border-size": "1.3px",
-    "--navbar-link-color": "#000000",
+    "--navbar-link-color": "#e0def4",
     "--navbar-font": '"Open Sans"',
     "--navbar-logo-filter": "brightness(100%)",
     "--text-color-primary": "#ffffff"
@@ -25,7 +25,7 @@ const THEME_OPTIONS = {
     "--input-border-color": "#eb6f92",
     "--input-border-size": "1.3px",
     "--navbar-link-color": "#000000",
-    "--navbar-font": '"Roboto"',
+    "--navbar-font": '"Open Sans"',
     "--navbar-logo-filter": "invert(30%)",
     "--text-color-primary": "#303030"
   },
@@ -40,8 +40,8 @@ const THEME_OPTIONS = {
     "--input-border-color": "#ff346e",
     "--input-border-size": "1.3px",
     "--navbar-link-color": "#000000",
-    "--navbar-font": '"Roboto"',
-    "--navbar-logo-filter": "brightness(30)",
+    "--navbar-font": '"Open Sans"',
+    "--navbar-logo-filter": "brightness(1)",
     "--text-color-primary": "#00000"
   },
   metallic: {
@@ -52,11 +52,11 @@ const THEME_OPTIONS = {
     "--input-text-color": "#e0def4",
     "--input-placeholder-color": "white",
     "--input-background-color": "#004953",
-    "--input-border-color": "#000000",
+    "--input-border-color": "#ffffff",
     "--input-border-size": "1.3px",
     "--navbar-link-color": "#e0def4",
-    "--navbar-font": '"Roboto"',
-    "--navbar-logo-filter": "invert(50%)",
+    "--navbar-font": '"Open Sans"',
+    "--navbar-logo-filter": "invert(1%)",
     "--text-color-primary": "#e0def4"
   },
   dante: {
@@ -70,9 +70,24 @@ const THEME_OPTIONS = {
     "--input-border-color": "#00000000",
     "--input-border-size": "1.3px",
     "--navbar-link-color": "#000000",
-    "--navbar-font": '"Roboto"',
-    "--navbar-logo-filter": "brightness(0%)",
+    "--navbar-font": '"Open Sans"',
+    "--navbar-logo-filter": "brightness(1%)",
     "--text-color-primary": "#000"
+  },
+  darkblue: {
+    "--background-primary": "#171717",
+    "--navbar-color": "#002a73",
+    "--navbar-height": "4em",
+    "--navbar-text-color": "#ffffff",
+    "--input-text-color": "#e0def4",
+    "--input-placeholder-color": "white",
+    "--input-background-color": "#002a73",
+    "--input-border-color": "#ffffff",
+    "--input-border-size": "1.3px",
+    "--navbar-link-color": "#e0def4",
+    "--navbar-font": '"Open Sans"',
+    "--navbar-logo-filter": "invert(1%)",
+    "--text-color-primary": "#e0def4"
   }
 };
 
@@ -116,11 +131,11 @@ function switchTheme() {
         "Welcome to the interactive setup. Please enter the following values. If you don't know what to enter, just press enter. They will default to Dark Mode."
       );
       let background = prompt(
-        "Background color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #191724",
+        "Background color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #22262b",
         ""
       );
       let navbar = prompt(
-        "Navbar color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #26233a",
+        "Navbar color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #15161a",
         ""
       );
       let navbarHeight = prompt(
@@ -128,11 +143,11 @@ function switchTheme() {
         ""
       );
       let navbarText = prompt(
-        "Navbar text color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #7967dd",
+        "Navbar text color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #ffffff",
         ""
       );
       let inputText = prompt(
-        "Input text color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #e0def4",
+        "Input text color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #ffffff",
         ""
       );
       let inputPlaceholder = prompt(
@@ -140,7 +155,7 @@ function switchTheme() {
         ""
       );
       let inputBackground = prompt(
-        "Input background color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #1f1d2e",
+        "Input background color || Possible Types: Keywords, RGB, RBBA, HSL, HSLA, Hexadecimal. || Default Value: #22262b",
         ""
       );
       let inputBorder = prompt(
