@@ -1,5 +1,5 @@
 {
-  "name": "nebula-web",
+  "name": "xneo-web",
   "version": "7.11.6",
   "description": "Explore the web. Freely.",
   "type": "module",
@@ -10,7 +10,7 @@
   "keywords": [
     "proxy"
   ],
-  "author": "Nebula Services",
+  "author": "Xneo Services",
   "license": "AGPL-3.0-only",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
